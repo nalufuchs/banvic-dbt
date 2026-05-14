@@ -15,6 +15,8 @@ with
             , endereco as endereco_colaborador
             , cep as cep_colaborador
             , cod_gerente
+        from
+        fonte_colaboradores
     )
 
 select *
