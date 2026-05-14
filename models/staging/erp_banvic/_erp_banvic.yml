@@ -9,3 +9,7 @@ sources:
         description: Tabela fonte de localidades com informação de cidade e estado.
       - name: clientes
         description: Tabela fonte de clientes com informações pessoais de cada cliente Banvic.
+      - name: agencias  
+        description: Tabela fonte de agencias com informação da agência, seu tipo e data de abertura.
+      - name: colaboradores  
+        description: Tabela fonte de colaboradores com informação pessoai e de sua gestão.
