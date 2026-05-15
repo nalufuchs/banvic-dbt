@@ -1,12 +1,12 @@
 with 
     clientes as (
         select * 
-        from {{ ref('stg_erp_clientes') }}
+        from {{ ref('stg_erp__clientes') }}
     )
 
     , localidades as (
         select * 
-        from {{ ref('stg_erp_localidades') }}
+        from {{ ref('stg_erp__localidades') }}
     )
 
     , clientes_enriquecido as (

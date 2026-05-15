@@ -1,12 +1,12 @@
 with 
     agencias as (
         select * 
-        from {{ ref('stg_erp_agencias') }}
+        from {{ ref('stg_erp__agencias') }}
     )
 
     , localidades as (
         select * 
-        from {{ ref('stg_erp_localidades') }}
+        from {{ ref('stg_erp__localidades') }}
     )
 
     , agencias_enriquecido as (
