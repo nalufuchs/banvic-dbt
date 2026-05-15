@@ -1,12 +1,12 @@
 with
     colaboradores as (
         select *
-        from {{ ref('stg_erp_colaboradores') }}
+        from {{ ref('stg_erp__colaboradores') }}
     )
 
     , localidades as (
         select *
-        from {{ ref('stg_erp_localidades') }}
+        from {{ ref('stg_erp__localidades') }}
     )
 
     , colaboradores_enriquecido as (
